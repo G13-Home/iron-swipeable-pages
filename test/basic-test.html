@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>iron-swipeable-pages tests</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script src="../node_modules/wct-browser-legacy/browser.js"></script>
+
+    <script type="module" src="../iron-swipeable-pages.js"></script>
+  </head>
+  <body>
+
+    <!-- You can use the document as a place to set up your fixtures. -->
+    <test-fixture id="iron-swipeable-pages-fixture">
+      <template>
+        <iron-swipeable-pages>
+          <div>Page 1</div>
+          <div>Page 2</div>
+          <div>Page 3</div>
+        </iron-swipeable-pages>
+      </template>
+    </test-fixture>
+
+    <script>
+      suite('<iron-swipeable-pages>', function() {
+
+        var myEl;
+
+        setup(function() {
+          myEl = fixture('iron-swipeable-pages-fixture');
+        });
+
+        test('check swipe is working', function() {
+        });
+
+        test('check selected is working', function() {
+        });
+
+        test('check no-cycle is working', function() {
+        });
+
+        test('check dynamic content is working', function() {
+        });
+
+      });
+    </script>
+
+  </body>
+</html>

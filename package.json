@@ -1,0 +1,48 @@
+{
+  "name": "iron-swipeable-pages",
+  "version": "2.0.0",
+  "description": "Polymer element that enables switching between different pages by swiping gesture.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "polymer-element",
+    "iron",
+    "pages",
+    "swipe",
+    "swipeable"
+  ],
+  "main": "iron-swipeable-pages.js",
+  "scripts": {
+    "test": "polymer lint && polymer test",
+    "start": "polymer serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myfrom/iron-swipeable-pages.git"
+  },
+  "author": "Pascal Gula aka MeTaNoV <pascal.gula@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myfrom/iron-swipeable-pages/issues"
+  },
+  "homepage": "https://www.webcomponents.org/element/myfrom/iron-swipeable-pages",
+  "devDependencies": {
+    "@polymer/app-route": "^3.0.2",
+    "@polymer/iron-component-page": "^4.0.1",
+    "@polymer/iron-demo-helpers": "^3.0.2",
+    "@polymer/iron-flex-layout": "^3.0.1",
+    "@polymer/iron-test-helpers": "^3.0.1",
+    "@polymer/paper-checkbox": "^3.1.0",
+    "@polymer/paper-drawer-panel": "^3.0.1",
+    "@polymer/paper-styles": "^3.0.1",
+    "@polymer/paper-tabs": "^3.0.1",
+    "@webcomponents/webcomponentsjs": "^2.1.3",
+    "wct-browser-legacy": "^1.0.1"
+  },
+  "dependencies": {
+    "@polymer/iron-resizable-behavior": "^3.0.1",
+    "@polymer/iron-selector": "^3.0.1",
+    "@polymer/polymer": "^3.0.5"
+  }
+}
